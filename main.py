@@ -46,7 +46,13 @@ def convert(x): #need to add castling
         return x[:-2]+p
 
     return x[1:] if len(x) > 4 else x
-path="games\game.pgn"
+
+##debug
+# path="games\game.pgn"
+# enginepath="engines/mvstockfish.exe"
+# player=0
+# limit=chess.engine.Limit(time=0.1)
+
 raw = open(path, 'r').read()
 moves = list(map(convert, [move for sublist in list(map(lambda x: re.sub(r"( 1-0| 0-1| 1\/2-1\/2)", "", x).split(), re.split(
     "\n\d+\. ", re.split('\n\n', raw)[1])[1:])) for move in sublist]))
