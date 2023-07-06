@@ -1,0 +1,56 @@
+[GameNr "51385828"]
+[TimeControl "3+2"]
+[Variant "Atomic"]
+[RuleVariants "Atomic EnPassant Play4Mate"]
+[White "winstonhowes"]
+[WhiteElo "2305"]
+[Black "hellochess88"]
+[BlackElo "1781"]
+[Result "1-0"]
+[Termination "Black resigned • 1-0"]
+[Site "www.chess.com/variants/atomic/game/51385828"]
+[Date "Tue Jul 04 2023 22:11:41 GMT+0000 (Coordinated Universal Time)"]
+
+
+1. Ng1f3 f7f6
+2. e2e3 e7e6
+3. Nf3d4 f6f5
+4. Qd1h5 g7g6
+5. Nd4b5 Qd8h4
+6. Qh5h4 a7a6
+7. Nb5c7 Ng8f6
+8. f2f3 Nf6g4
+9. f3g4 Bf8d6
+10. g2g3 f5f4
+11. Bf1c4 Ke8g8
+12. Rh1f1 Bd6b4
+13. c2c3 Bb4c3
+14. b2b3 b7b5
+15. d2d4 Ra8c8
+16. Nb1c3 b5b4
+17. Bc1a3 d7d5
+18. Ra1c1 h7h5
+19. h2h3 e6e5
+20. e3e4 e5d4
+21. Rc1c7 Rc8c7
+22. Ke1e2 h5h4
+23. Rf1c1 Rf8c8
+24. Rc1c7 Rc8c7
+25. e4d5 f4f3
+26. Ke2f1 f3f2
+27. Ba3c1 h4g3
+28. a2a4 g6g5
+29. Bc1d2 Kg8f7
+30. Bd2e3 Kf7e7
+31. Be3c5 Ke7e6
+32. Bc5e7 Ke6d5
+33. Be7d8 a6a5
+34. Bd8a5 Kd5c6
+35. a4a5 Kc6b7
+36. a5a6 Kb7a7
+37. h3h4 g5h4
+38. Kf1e2 f2f1=Q
+39. Ke2e3 Qf1e2
+40. Ke3d4 Qe2c4
+41. Kd4e5 Qc4d5
+42.   1-0

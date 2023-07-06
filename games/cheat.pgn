@@ -1,0 +1,25 @@
+[GameNr "51336236"]
+[TimeControl "3+2"]
+[Variant "Atomic"]
+[RuleVariants "Atomic EnPassant Play4Mate"]
+[White "sk_life"]
+[WhiteElo "1829"]
+[Black "winstonhowes"]
+[BlackElo "2355"]
+[Result "1-0"]
+[Termination "King captured • 1-0"]
+[Site "www.chess.com/variants/atomic/game/51336236"]
+[Date "Mon Jul 03 2023 17:55:40 GMT+0000 (Coordinated Universal Time)"]
+
+
+1. Ng1f3 f7f6
+2. Nb1c3 Ng8h6
+3. g2g4 c7c6
+4. d2d4 d7d5
+5. Nf3e5 f6e5
+6. Nc3b5 c6b5
+7. e2e4 Qd8a5
+8. b2b4 Qa5a4
+9. Bf1b5 Qa4b4
+10. Bc1a3 e7e5
+11. Ba3f8 1-0
