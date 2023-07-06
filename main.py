@@ -8,7 +8,7 @@ config = [
     "option descriptor (type)              [default]",
     "player color      (0:white|1:black)   [0]        : ",
     "pgn file path     (string)            [game]     : ",
-    "analysis Limit    (time|depth|nodes)  [time]     : ",
+    "analysis limit    (time|depth|nodes)  [time]     : ",
     "time per move     (float)             [3]        : ",
     "depth per move    (int)               [12]       : ",
     "nodes per move    (int)               [200000]   : ",
