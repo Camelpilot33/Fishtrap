@@ -1,15 +1,14 @@
-[GameNr "51336236"]
+[GameNr "xxxxxxxx"]
 [TimeControl "3+2"]
 [Variant "Atomic"]
 [RuleVariants "Atomic EnPassant Play4Mate"]
-[White "sk_life"]
-[WhiteElo "1829"]
-[Black "winstonhowes"]
-[BlackElo "2355"]
+[White "Cheater"]
+[WhiteElo "1800"]
+[Black "Opponent"]
+[BlackElo "2400"]
 [Result "1-0"]
 [Termination "King captured • 1-0"]
-[Site "www.chess.com/variants/atomic/game/51336236"]
-[Date "Mon Jul 03 2023 17:55:40 GMT+0000 (Coordinated Universal Time)"]
+[Site "www.chess.com/variants/atomic/game/xxxxxxxx"]
 
 
 1. Ng1f3 f7f6
