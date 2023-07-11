@@ -28,7 +28,7 @@ print("""
 print(" - Config - ")
 print(config[0])
 player = int(input(config[1]) or "0")
-path = "games\\"+(input(config[2]) or "game")+".pgn"
+PGNpath = "games\\"+(input(config[2]) or "game")+".pgn"
 enginepath = ".\\engines\\"+(input(config[7]) or "ffish")+".exe"
 intype = input(config[3]) or "time"
 if (intype == "time"):
@@ -38,7 +38,7 @@ elif (intype == "depth"):
 elif (intype == "nodes"):
     limit = chess.engine.Limit(nodes=int(input(config[6]) or "200000"))
 else:
-    exit()
+    exit("ERROR: bad input: 'intype'")
 
 def convert(x): #need to add castling
     if '=' in x:
@@ -52,12 +52,16 @@ def convert(x): #need to add castling
 # enginepath="engines/mvstockfish.exe"
 # player=0
 # limit=chess.engine.Limit(time=0.1)
-
-raw = open(path, 'r').read()
+try:
+    raw = open(PGNpath, 'r').read()
+except FileNotFoundError:
+    exit("ERROR: 'FileNotFoundError': bad input: 'PGNpath'")
 moves = list(map(convert, [move for sublist in list(map(lambda x: re.sub(r"( 1-0| 0-1| 1\/2-1\/2)", "", x).split(), re.split(
     "\n\d+\. ", re.split('\n\n', raw)[1])[1:])) for move in sublist]))
-
-engine = chess.engine.SimpleEngine.popen_uci(enginepath)
+try:
+    engine = chess.engine.SimpleEngine.popen_uci(enginepath)
+except FileNotFoundError:
+    exit("ERROR: 'FileNotFoundError': bad input: 'enginepath'")
 board = chess.variant.AtomicBoard()
 print("\n - Checking Game - ")
 sus = [0, 0]  # top3, top5
