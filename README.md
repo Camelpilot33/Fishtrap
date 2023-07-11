@@ -8,6 +8,7 @@ Program for catching stockfish cheaters in Atomic
  - [Python 3.7+](https://www.python.org/downloads/)
  - [Python-Chess](https://pypi.org/project/chess/) > `pip install chess`
 ## Usage
+ - Video by PandaFrame on the topic: [Here](https://youtu.be/KS0oqceEODc)
  - Clone the repository or download the [release](https://github.com/Camelpilot33/Fishtrap/releases)
  - Find the [Chess.com](Chess.com) game, and click the `Download PGN` button:\
 <img src="https://i.imgur.com/fgXaA65.png" width=200></img>
